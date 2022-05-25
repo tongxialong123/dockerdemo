@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 # 定义环境变量
 #ENV NAME World
 # 在容器启动时运行 app.py
-CMD ["python", "./myapps/hello_world.py"]
+CMD ["python", "./myapp/hello_world.py"]
